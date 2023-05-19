@@ -41,7 +41,7 @@ For example, I send 10 packets from h1 to h3:
 <p>
     <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/34d57759-7033-43cf-819e-423afe38e11d">
 </p>
-The result of the ranking mechanism can be check by using CLI of simple_switch:
+The result of the ranking mechanism can be check by using CLI of simple_switch to read the register used to capture queue bound values:
 <p>
     <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/d3714e5a-6865-4ba2-8661-e80de02ab01f">
 </p>
@@ -49,7 +49,6 @@ Or using .log files in the log folder generated after compiling the code
 <p>
     <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/a2fad31e-235e-4c71-900e-b01be577f095f">
 </p>
-
-
-
-
+<br>
+If you want to delete log and pcap folder, hit <code> Ctrl+D </code> to exit Mininet and enter the command:
+<code> sudo make clean </code>

@@ -33,5 +33,13 @@ SP-PIFO uses ranking mechanism to select priority queue for each packet. Accordi
 <br>
 <br>
 In my case, I write a function in <code> send.py </code> to randomly set the packet size for each packet before sending it and use the packet size for ranking mechanism where smaller sizes have higher priority. In addition, I tag the <code> standard_metatata.qid </code> to ToS fields of IP packets to distinguish different priority queues.
+<br> 
+Sending packets between two hosts using <code> xterm </code> commands in Mininet.
+<br>
+For example, I send 10 packets from h1 to h3:
+<p>
+    <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/34d57759-7033-43cf-819e-423afe38e11d">
+</p>
+
 
 

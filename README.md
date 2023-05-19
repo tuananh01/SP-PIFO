@@ -18,3 +18,5 @@ The sp-pifo folder in this repository include:
 <li> sw_commands folder: Contain .txt files used to configure forwarding rules for switches
 <br>
 <hr>
+The topology
+<br>

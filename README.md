@@ -13,7 +13,7 @@ I clone p4-learning repository (https://github.com/nsg-ethz/p4-learning/tree/mas
 The sp-pifo folder in this repository include:
 <li> sp-pifo.p4: p4_16 code of SP-PIFO
 <li> network.py: Used to create network topology
-<li> send.py: Python code using Scapy library used to create and send packets 
+<li> send.py:    Python code using Scapy library used to create and send packets 
 <li> receive.py: Python code using Scapy library used to receive packets
 <li> sw_commands folder: Contain .txt files used to configure forwarding rules for switches
 <br>

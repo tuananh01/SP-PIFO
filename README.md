@@ -16,9 +16,17 @@ The sp-pifo folder in this repository include:
 <li> <b>send.py</b>:    Python code using Scapy library used to create and send packets </li>
 <li> <b>receive.py</b>: Python code using Scapy library used to receive packets </li>
 <li> <b>sw_commands folder</b>: Contain .txt files used to configure forwarding rules for switches </li>
-<br>
+</br>
 <hr>
+<b> Topology </b>
 <p>
     <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/4fafe01f-0e2c-486f-b965-5ce5ff53c84d/topology.svg"/>
 </p>
-To run the code, go to the terminal and enter the command: <br>
+To run the code, go to the terminal and enter the command: <code>sudo python3 network.py</code>
+<br>
+This will compile the p4 code and also generate the topology in Mininet: 
+<p>
+    <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/700337c5-a39f-4bbe-867f-9eceb82fc484">
+</p>
+
+

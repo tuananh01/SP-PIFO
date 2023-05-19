@@ -28,5 +28,10 @@ This will compile the p4 code and also generate the topology in Mininet:
 <p>
     <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/700337c5-a39f-4bbe-867f-9eceb82fc484">
 </p>
+<br>
+SP-PIFO uses ranking mechanism to select priority queue for each packet. According to the authors, the rank can be computed in the switch or in the end-host and read it from the switch. The current code in the authors' github is for the case in which you compute the rank at the end host, tag it into the ToS field of IP packets, and read it for the switch. 
+<br>
+<br>
+In my case, I write a function in <code> send.py </code> to randomly set the packet size for each packet before sending it and use the packet size for ranking mechanism where smaller sizes have higher priority. In addition, I tag the <code> standard_metatata.qid </code> to ToS fields of IP packets to distinguish different priority queues.
 
 

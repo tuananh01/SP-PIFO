@@ -51,4 +51,5 @@ Or using .log files in the log folder generated after compiling the code
 </p>
 <br>
 If you want to delete log and pcap folder, hit <code> Ctrl+D </code> to exit Mininet and enter the command:
+<br>
 <code> sudo make clean </code>

@@ -11,11 +11,14 @@ I clone p4-learning repository (https://github.com/nsg-ethz/p4-learning/tree/mas
 <br>
 <br>
 The sp-pifo folder in this repository include:
-<li> sp-pifo.p4: p4_16 code of SP-PIFO
+<li> <b>sp-pifo.p4</b>: p4_16 code of SP-PIFO </li>
 <li> network.py: Used to create network topology
-<li> send.py:    Python code using Scapy library used to create and send packets 
-<li> receive.py: Python code using Scapy library used to receive packets
-<li> sw_commands folder: Contain .txt files used to configure forwarding rules for switches
+<li> send.py:    Python code using Scapy library used to create and send packets </li>
+<li> receive.py: Python code using Scapy library used to receive packets </li>
+<li> sw_commands folder: Contain .txt files used to configure forwarding rules for switches </li>
 <br>
 <hr>
+<p>
+    <img src="https://github.com/tuananh01/SP-PIFO/assets/86756286/4fafe01f-0e2c-486f-b965-5ce5ff53c84d/topology.svg"/>
+</p>
 To run the code, go to the terminal and enter the command: <br>

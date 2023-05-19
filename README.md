@@ -7,7 +7,8 @@ Official document of SP-PIFO: https://www.usenix.org/conference/nsdi20/presentat
 ## My implementation
 About the simulation environment, I use the latest Development VM which has necessary P4 developement tools provided here: https://github.com/jafingerhut/p4-guide/blob/master/bin/README-install-troubleshooting.md
 <br>
-I clone p4-learing repository (https://github.com/nsg-ethz/p4-learning/tree/master) to the VM and using that repo to run exercises.
+I clone p4-learning repository (https://github.com/nsg-ethz/p4-learning/tree/master) to the VM and using that repo to run exercises.
+<br>
 <br>
 The sp-pifo folder in this repository include:
 <li> sp-pifo.p4: p4_16 code of SP-PIFO

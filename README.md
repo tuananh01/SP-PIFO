@@ -55,8 +55,8 @@ If you want to delete log and pcap folder, hit <code> Ctrl+D </code> to exit Min
 <code> sudo make clean </code>
 </p>
 <br>
-# Resources
-Some helpful ones
+
+## Resources
 <li>P4-learning Wiki: https://github.com/nsg-ethz/p4-learning/wiki/
 <br>
 <li>The BMv2 Simple Switch target: https://github.com/p4lang/behavioral-model/blob/main/docs/simple_switch.md
